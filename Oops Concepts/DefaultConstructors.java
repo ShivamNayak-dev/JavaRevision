@@ -1,6 +1,7 @@
 class Laptop{
     String Brand;
     int Ram;
+    boolean Avaliable;
 }
 
 public class DefaultConstructors{
@@ -9,5 +10,6 @@ public class DefaultConstructors{
 
         System.out.println(l.Brand);
         System.out.println(l.Ram);
+        System.out.println(l.Avaliable);
     }
 }
